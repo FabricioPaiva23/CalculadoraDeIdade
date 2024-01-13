@@ -1,5 +1,5 @@
 
-# Caculador de idade
+# Calculador de idade
 
 Esta é uma simples calculadora de idade desenvolvida em Python com a biblioteca Tkinter. A aplicação permite calcular a diferença de idade entre duas datas fornecidas pelo usuário.
 

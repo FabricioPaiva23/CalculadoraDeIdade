@@ -59,13 +59,13 @@ def calcular():
 l_data_inicial = Label(frame_baixo, text="Data inicial", height=1, padx=0, pady=0, relief=FLAT, anchor=NW, font=("Ivi 11"), bg=cor1, fg=cor3)
 l_data_inicial.place(x=35, y=30)
 
-cal_1 = DateEntry(frame_baixo, width=13, bg='darkblue', fg=cor3, borderwidth=2, date_patter='dd/mm/y', Y=2024 )
+cal_1 = DateEntry(frame_baixo, width=13, bg='darkblue', fg=cor3, borderwidth=2, date_pattern='dd/mm/y', Y=2024 )
 cal_1.place(x=170, y=30)
 
 l_data_nascimento = Label(frame_baixo, text="Data nascimento", height=1, padx=0, pady=0, relief=FLAT, anchor=NW, font=("Ivi 11"), bg=cor1, fg=cor3)
 l_data_nascimento.place(x=35, y=70)
 
-cal_2 = DateEntry(frame_baixo, width=13, bg='darkblue', fg=cor3, borderwidth=2, date_patter='dd/mm/y', Y=2024 )
+cal_2 = DateEntry(frame_baixo, width=13, bg='darkblue', fg=cor3, borderwidth=2, date_pattern='dd/mm/y', Y=2024 )
 cal_2.place(x=170, y=70)
 
 
